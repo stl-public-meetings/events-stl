@@ -33,6 +33,16 @@ class Event extends Component {
           </a>
         </p>;
     }
+    
+    let source2 = '';
+    for (var item of event.links) {
+        source2 = <p className="card-footer-item">
+        <a href={item.url} target="_blank">
+            {item.note}
+          </a>
+        </p>;
+    }
+    
     return (
       <div className={classNames} style={this.props.style}>
         <div className='card'>
@@ -43,12 +53,10 @@ class Event extends Component {
             <p className='location'>
               <span className='tag is-white'>Location</span> {event.location.name}
             </p>
-            <p className='links'>
-              <span className='tag is-white'>Links</span> {event.links}
-            </p>
           </div>
           <footer className='card-footer'>
             {source}
+            {source2}
             <p className='card-footer-item'><a href={this.gCalLink(event)} target='_blank'>Add to Google Calendar</a></p>
           </footer>
         </div>
