@@ -43,6 +43,9 @@ class Event extends Component {
             <p className='location'>
               <span className='tag is-white'>Location</span> {event.location.name}
             </p>
+            <p className='links'>
+              <span className='tag is-white'>Links</span> {event.links}
+            </p>
           </div>
           <footer className='card-footer'>
             {source}
