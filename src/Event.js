@@ -41,7 +41,7 @@ class Event extends Component {
             <h5 className='subtitle'>{event.name}</h5>
             <p className='date'>{event.start.format('dddd, MMMM Do, YYYY')}<br/>{event.start.format('h:mma')}</p>
             <p className='location'>
-              <span className='tag is-white'>Location</span> {event.location.name}
+              <span className='tag is-white'>LKJDFKLJF</span> {event.location.name}
             </p>
             <p className='links'>
               <span className='tag is-white'>Links</span> {event.links}
