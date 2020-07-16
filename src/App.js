@@ -136,7 +136,7 @@ class App extends Component {
           <div className="container">
             <header className="App-header">
               <img src={logo} alt='City Bureau logo' />
-              <h1 className="title">City Scrapers Events</h1>
+              <h1 className="title"> <a className="titleLink" href="https://github.com/stl-public-meetings/city-scrapers-stl"> City Scrapers Events </a></h1>
               <a href={config.EVENT_SOURCE} className='is-pulled-right'>Download Source Data</a>
             </header>
             <div className="columns">
