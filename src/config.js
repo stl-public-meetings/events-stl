@@ -5,14 +5,9 @@ const config = {
   EVENT_SOURCE:
     "https://cityscrapers.blob.core.windows.net/meetings-feed-stl/upcoming.json",
   REGION_OPTIONS: [
-//     { label: "Chicago", value: "chi" },
-//     { label: "Cook County", value: "cook" },
-//     { label: "Illinois", value: "il" },
-//     { label: "Detroit", value: "det" },
-//     { label: "Wayne County", value: "wayne" },
-//     { label: "Michigan", value: "mi" },
     { label: "Creve Coeur", value: "cc" },
     { label: "St. Louis", value: "stl" },
+    { label: "Clayton", value: "clay" },
   ],
   MONTH_OPTIONS: [
     { label: "January", value: 0 },

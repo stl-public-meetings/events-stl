@@ -40,6 +40,15 @@
   position: relative;
 }
 
+.titleLink {
+  text-decoration: none;
+  color: black;
+}
+
+.titleLink a::hover {
+  color: black;
+}
+
 .events-panel-container {
   position: absolute;
   top: 0;
